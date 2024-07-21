@@ -1,0 +1,20 @@
+.movie-carousel {
+    display: flex;
+    overflow-x: auto;
+    padding: 10px;
+    white-space: nowrap; 
+    max-width: 70%; 
+    margin: 0 auto; 
+}
+
+.carousel-item {
+    flex: 0 0 auto; /* Prevent flex item from growing or shrinking */
+    margin-right: 10px; /* Spacing between items */
+}
+
+.carousel-item img {
+    width: 150px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; 
+    object-fit: cover; /* Ensure images fit the container */
+}
