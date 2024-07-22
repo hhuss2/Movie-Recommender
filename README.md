@@ -4,8 +4,8 @@ This is a movie recommender application that provides personalized movie suggest
 
 ## Features
 
-- **Personalized Movie Recommendations**: Get tailored movie suggestions based preferences.
-- **Search Functionality**: Search for movies after inputting a movie name. Inputting genre and min rating are optional.
+- **Personalized Movie Recommendations**: Get tailored movie suggestions based on your preferences.
+- **Search Functionality**: Search for recommendations using a movie name. Optionally, filter by genre and minimum rating.
 - **Image Carousel**: Browse movie posters in a carousel format.
 
 ## Technologies Used
@@ -14,8 +14,6 @@ This is a movie recommender application that provides personalized movie suggest
 - **Backend**: Django
 - **Database**: SQLite
 - **Machine Learning**: scikit-learn for movie recommendation algorithms
-
-## Usage
 
 ### Clone the Repository
 
@@ -86,15 +84,18 @@ git clone https://github.com/hhuss2/Movie-Recommender.git
 Open your web browser and navigate to `http://localhost:3000` to view the application.
 
 ### Demo
-Type a movie to get recommendations.
+Here are some screenshots demonstrating the application's functionality:
+
+
+- **Search for Recommendations**: Type a movie name to get personalized recommendations.
 <img width="1430" alt="Screenshot 2024-07-21 at 9 59 16 PM" src="https://github.com/user-attachments/assets/cb478a86-dfb7-42b8-9203-a63d54c24841">
 
+- **Browse Movie Posters**: View movie posters in a carousel format.
 <img width="1429" alt="Screenshot 2024-07-21 at 10 11 58 PM" src="https://github.com/user-attachments/assets/6d2fdc9a-3b95-40fd-a4e5-3e9682a391d4">
 
 <img width="1426" alt="Screenshot 2024-07-21 at 10 14 52 PM" src="https://github.com/user-attachments/assets/4c35394e-5b79-4c3b-b1be-124f74cd651b">
 
-The recommendations can be filtered by genre and a minimum rating.
-
+- **Filter Recommendations**: Recommendations can be filtered by genre and minimum rating.
 <img width="1427" alt="Screenshot 2024-07-21 at 10 14 02 PM" src="https://github.com/user-attachments/assets/67d3ffd6-2126-4de6-a785-3b230911e840">
 
 
