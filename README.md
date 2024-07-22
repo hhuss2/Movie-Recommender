@@ -98,6 +98,6 @@ The recommendations can be filtered by genre and a minimum rating.
 <img width="1427" alt="Screenshot 2024-07-21 at 10 14 02 PM" src="https://github.com/user-attachments/assets/67d3ffd6-2126-4de6-a785-3b230911e840">
 
 
-### Discalimer
+### Disclaimer
 
 This application uses TMDB and the TMDB APIs but is not endorsed, certified, or otherwise approved by TMDB.
