@@ -23,37 +23,43 @@ git clone https://github.com/hhuss2/Movie-Recommender.git
 
 ### Set Up the Backend
 
-1. **Navigate to the Backend Directory**
+1. **Load Initial Movie Data**
 
    ```sh
-   cd Movie-Recommender/backend
+   python load_movies.py
+   ```
+   
+2. **Navigate to the Backend Directory**
+
+   ```sh
+   cd backend
    ```
 
-2. **Create a Virtual Environment**
+3. **Create a Virtual Environment**
 
    ```sh
    python3 -m venv venv
    ```
 
-3. **Activate the Virtual Environment**
+4. **Activate the Virtual Environment**
 
    ```sh
    source venv/bin/activate
    ```
 
-4. **Install Dependencies**
+5. **Install Dependencies**
 
    ```sh
    pip install -r requirements.txt
    ```
 
-5. **Run Migrations**
+6. **Run Migrations**
 
    ```sh
    python manage.py migrate
    ```
 
-6. **Start the Development Server**
+7. **Start the Development Server**
 
    ```sh
    python manage.py runserver
