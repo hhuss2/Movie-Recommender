@@ -6,7 +6,7 @@ bcrypt==4.0.1
 beautifulsoup4==4.12.2
 blinker==1.6.2
 cachetools==5.4.0
-certifi==2023.7.22
+certifi>=2024.7.4
 chardet==5.2.0
 charset-normalizer==3.2.0
 click==8.1.7
@@ -14,7 +14,7 @@ distlib==0.3.8
 Django==5.0.14
 django-cors-headers==4.4.0
 djangorestframework==3.15.2
-dnspython==2.4.2
+dnspython>=2.6.1
 dominate==2.8.0
 email-validator==2.1.0.post1
 filelock==3.15.4
@@ -30,9 +30,9 @@ Flask-WTF==1.2.1
 git-filter-repo==2.45.0
 gitdb==4.0.11
 GitPython==3.1.43
-idna==3.4
+idna>=3.7
 itsdangerous==2.1.2
-Jinja2==3.1.2
+Jinja2>=3.1.6
 jsonschema==4.23.0
 jsonschema-specifications==2023.12.1
 lxml==4.9.1
@@ -57,7 +57,7 @@ python-docx==0.8.11
 pytz==2023.3.post1
 referencing==0.35.1
 reportlab==4.2.2
-requests==2.31.0
+requests>=2.32.0
 rich==13.7.1
 rpds-py==0.19.0
 six==1.16.0
@@ -65,7 +65,7 @@ smmap==5.0.1
 soupsieve==2.5
 SQLAlchemy==2.0.22
 sqlparse==0.5.0
-streamlit==1.36.0
+streamlit>=1.37.0
 tenacity==8.5.0
 toml==0.10.2
 toolz==0.12.1
