@@ -11,7 +11,7 @@ chardet==5.2.0
 charset-normalizer==3.2.0
 click==8.1.7
 distlib==0.3.8
-Django==5.0.14
+Django>=5.1.10
 django-cors-headers==4.4.0
 djangorestframework==3.15.2
 dnspython>=2.6.1
@@ -45,7 +45,7 @@ packaging==24.1
 pandas==2.1.2
 Pillow>=10.3.0
 platformdirs==4.2.2
-protobuf==5.27.2
+protobuf>=5.29.5
 psycopg2==2.9.9
 pyarrow==17.0.0
 pydeck==0.9.1
